@@ -1,0 +1,31 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Excel приложение на чистом JS",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nepridumalnik/excel-js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Dudnik Pavel <ne.pridumal.nik@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nepridumalnik/excel-js/issues"
+  },
+  "homepage": "https://github.com/nepridumalnik/excel-js#readme",
+  "private": false,
+  "devDependencies": {
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
