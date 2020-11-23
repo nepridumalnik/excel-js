@@ -1,0 +1,14 @@
+WebPack (импорт/экспорт)
+    Babel - переводчик новых версий JS в старые
+    SCSS - препроцессор CSS
+    ESLint
+    Modes:
+        -Dev:
+            Dev Server, Source Maps, ESLint, Not Minified JS & CSS
+        -Prod
+            Minified Code
+Git
+    Production
+        ~1.0.0
+    Development
+        ~1.0.2
