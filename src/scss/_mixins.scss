@@ -1,2 +1,22 @@
-@import 'variables';
-@import 'mixins';
+@mixin button($color: green) {
+  height: 24px;
+  min-width: 24px;
+  padding: 3px;
+  text-align: center;
+  display: inline-block;
+  color: #000000a2;
+
+  & > i {
+    font-size: 18px;
+  }
+
+  &:active,
+  &.active {
+    color: $color;
+  }
+
+  &:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+}
