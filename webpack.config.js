@@ -42,7 +42,7 @@ module.exports = {
     alias: {'@': path.resolve(__dirname, 'src')},
     alias: {'@core': path.resolve(__dirname, 'src/core')}
   },
-  devtool: isDev ? 'source-map' : null,
+  devtool: isDev ? 'source-map' : 'eval',
   devServer: {
     port: 3000,
     hot: isDev
